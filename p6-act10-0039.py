@@ -49,6 +49,8 @@ cv2.destroyAllWindows
 
 
 # Thresholding
+print("Thresholding 0039")
+    
 Img = cv2.imread('triple t.jpg',0)
 
 ret,thr1 = cv2.threshold(Img,127,255,cv2.THRESH_BINARY)
